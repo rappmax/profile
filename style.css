@@ -1,0 +1,65 @@
+body {
+  background-color: rgba(245,245,245,1);
+  color: rgb(73,80,87);
+  font-family: Barlow Condensed;
+  text-align: center;
+/*  padding: 0px 100px;*/
+}
+
+img {
+  width: 160px;
+  height: auto;
+  border-radius: 50%;
+  margin: 30px 0px;
+}
+
+li a:hover {
+  color: rgba(85,26,139,0.8);
+}
+
+
+ul {
+    display: block;
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.container{
+  width: 500px
+  margin: 0 auto;
+}
+
+/*.card{
+  margin: 0 auto;
+}*/
+
+.card-white {
+  margin: 30px 100px;
+  background-color: rgb(255,255,255);
+  font-size: 40;
+  padding: 32px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
